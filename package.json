@@ -2,6 +2,7 @@
   "name": "adriana-portfolio",
   "version": "0.1.0",
   "homepage": "https://adriana1013.github.io/Adriana-portfolio-react/",
+  "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -13,13 +13,13 @@ function Navigation() {
     </div>
     <div>
       <nav className="App header">
-        <NavLink to=''>About</NavLink>
+        <NavLink to='Adriana-portfolio-react'>About</NavLink>
         <NavLink to='portfolio'>Portfolio</NavLink>
         <NavLink to='contact'>Contact</NavLink>
         <NavLink to='resume'>Resume</NavLink>
       </nav>
       <Routes>
-        <Route path='' element={<About />} />
+        <Route path='Adriana-portfolio-react' element={<About />} />
         <Route path='portfolio' element={<Portfolio />} />
         <Route path='contact' element={<Contact />} />
         <Route path='resume' element={<Resume />} />
