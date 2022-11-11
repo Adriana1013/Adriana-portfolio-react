@@ -1,32 +1,16 @@
 import React from "react";
-import About from "./About"
-import Contact from "./Contact";
-import Resume from "./Resume";
-import Portfolio from "./Portfolio";
-import Project from "./Project";
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import Header from "./Header";
+import Footer from "./Footer";
+// import Navigation from "./components/Navigation";
+
 
 function Navigation() {
   return (
-    <BrowserRouter>
     <div>
+    <Header />
+    <Navigation />
+    <Footer />
     </div>
-    <div>
-      <nav className="App header">
-        <NavLink to='Adriana-portfolio-react'>About</NavLink>
-        <NavLink to='portfolio'>Portfolio</NavLink>
-        <NavLink to='contact'>Contact</NavLink>
-        <NavLink to='resume'>Resume</NavLink>
-      </nav>
-      <Routes>
-        <Route path='Adriana-portfolio-react' element={<About />} />
-        <Route path='portfolio' element={<Portfolio />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='resume' element={<Resume />} />
-         <Route path=':id' element={<Project />} />
-      </Routes>
-    </div>
-    </BrowserRouter>
   );
 }
 
