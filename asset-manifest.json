@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Adriana-portfolio-react/static/css/main.c66372ea.css",
+    "main.css": "/Adriana-portfolio-react/static/css/main.2039934a.css",
     "main.js": "/Adriana-portfolio-react/static/js/main.448ba22e.js",
     "static/js/787.9c7a0ad3.chunk.js": "/Adriana-portfolio-react/static/js/787.9c7a0ad3.chunk.js",
     "static/media/Adriana.JPG": "/Adriana-portfolio-react/static/media/Adriana.66c89b74ffaebc206b7d.JPG",
     "index.html": "/Adriana-portfolio-react/index.html",
-    "main.c66372ea.css.map": "/Adriana-portfolio-react/static/css/main.c66372ea.css.map",
+    "main.2039934a.css.map": "/Adriana-portfolio-react/static/css/main.2039934a.css.map",
     "main.448ba22e.js.map": "/Adriana-portfolio-react/static/js/main.448ba22e.js.map",
     "787.9c7a0ad3.chunk.js.map": "/Adriana-portfolio-react/static/js/787.9c7a0ad3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c66372ea.css",
+    "static/css/main.2039934a.css",
     "static/js/main.448ba22e.js"
   ]
 }
