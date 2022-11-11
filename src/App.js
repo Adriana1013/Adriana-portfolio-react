@@ -6,6 +6,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Project from "./components/Project";
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import Footer from "./components/Footer";
 
 export default function App() {
 return (
@@ -26,6 +27,9 @@ return (
         <Route path='resume' element={<Resume />} />
          <Route path=':id' element={<Project />} />
       </Routes>
+    </div>
+    <div>
+    <Footer />
     </div>
     </BrowserRouter>
 );

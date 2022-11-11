@@ -57,7 +57,7 @@ text-decoration: underline;
 }
 
 .footer{
-  margin-top: 60px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   font-size: 20px;
